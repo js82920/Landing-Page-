@@ -1,0 +1,8 @@
+h3{
+    color: white;
+}
+.header-container {
+    background-color: #5995DA;
+    display: flex;
+    justify-content: center;
+  }
