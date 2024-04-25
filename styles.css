@@ -1,5 +1,8 @@
 .header-container{
     background-color: #192431;
+    padding: 18px;
+    align-items: left;
+    display: flexbox;
         
 }
 h3{
@@ -12,7 +15,16 @@ div{
     color: white;
     font-size: 18px;
     }
+h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font: bolder;
+}
 .item{
+    width: 60px;
+    align-items: center;
+}
+.logo{
     width: 60px;
     height: 60px;
     display: contents;
