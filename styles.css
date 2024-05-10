@@ -1,3 +1,7 @@
+p{
+    margin: 0;
+    padding: 0;
+}
 .header-container{
     background-color: #192431;
     padding: 0px;
@@ -16,7 +20,6 @@ h2{
 }
 .leftlink{
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 18px;
     font-weight: bold;
@@ -34,7 +37,12 @@ h2{
   }
 .hero-container{
     background-color: #192431;
-    padding: 50px;
+    padding: 75px 100px 75px 90px;
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.text{
+    text-wrap: wrap;
+    width: 400px;
 }
