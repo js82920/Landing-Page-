@@ -28,3 +28,10 @@ h2{
   li, p {
     color: white;
   }
+.hero-container{
+    background-color: #192431;
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
