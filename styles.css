@@ -2,8 +2,8 @@
     background-color: #192431;
     padding: 50px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 h1{
     color: white;
@@ -23,10 +23,8 @@ h2{
     margin: 0;
     padding: 0;
     gap: 16px;
+    text-align: right;
   }
   li, p {
     color: white;
-  }
-  .link {
-    flex-direction: row-reverse;
   }
