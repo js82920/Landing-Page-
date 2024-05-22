@@ -1,9 +1,7 @@
-p{
-    margin: 0;
-    padding: 0;
+header{
+    background-color: #192431; 
 }
 .header-container{
-    background-color: #192431;
     padding: 0px;
     display: flex;
     flex-flow: row wrap;
@@ -33,17 +31,23 @@ h2{
     font-size: 15px;
     gap: 10px;
   }
-  li, p {
+li{
     color: white;
   }
+p{
+    color: white;
+  }
+
 .hero-container{
-    background-color: #192431;
-    padding: 75px 100px 75px 90px;
+    width: 100px;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
+    flex-flow: column;
 }
-.text{
+.hero-title{
     text-wrap: wrap;
     width: 400px;
+}
+.button{
+    width: 30px;
+    height: 30px;
 }
